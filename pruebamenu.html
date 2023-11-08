@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .menu {
+            display: none;
+            /* Agrega aquí estilos adicionales para el menú */
+            width: 120px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .menu:target {
+            display: block;
+        }
+
+        .margenes {
+            margin-bottom: 10px;
+        }
+
+        .margenes a {
+            display: block;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .margenes a:hover {
+            color: #4CAF50;
+        }
+
+        .cerrar {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#menu">Mostrar menú</a>
+
+    <div id="menu" class="menu">
+        <div class="margenes cerrar">
+            <a href="#">Cerrar</a>
+        </div>
+        <div class="margenes">
+            <a href="#">inicio</a>
+        </div>
+        <div class="margenes">
+            <a href="#">catalogo</a>
+        </div>
+    </div>
+
+</body>
+</html>
